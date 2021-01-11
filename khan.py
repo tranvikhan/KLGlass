@@ -9,17 +9,15 @@ class Ui(QtWidgets.QMainWindow):
         uic.loadUi('./UI/GlaasFace1.ui', self)
         self.Gio1 = self.findChild(QtWidgets.QLabel, 'Gio1')  # Find the button
         # Remember to pass the definition/method, not the return value!
-        i = 0
-
         self.show()
 
     def loadding(self):
-        while 1:
-            print('printButtonPressed')
-            # self.Gio1.setText(str(i))
-            time.sleep(3)
+        print('printButtonPressed')
+        self.Gio1.setText('khan')
+        # self.Gio1.setText(str(i))
 
 
 app = QtWidgets.QApplication(sys.argv)
 window = Ui()
+window.loadding()
 app.exec_()
