@@ -7,7 +7,7 @@ import time
 class Ui(QtWidgets.QMainWindow):
     def __init__(self):
         super(Ui, self).__init__()
-        uic.loadUi('/home/pi/KLGlass/UI/demo.ui', self)
+        uic.loadUi('/home/pi/KLGlass/UI/MatChinh.ui', self)
         # self.Gio1 = self.findChild(QtWidgets.QLabel, 'Gio1')  # Find the button
         # Remember to pass the definition/method, not the return value!
         self.setWindowFlag(Qt.FramelessWindowHint)
