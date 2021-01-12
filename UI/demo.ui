@@ -48,7 +48,10 @@
       <item>
        <widget class="QPushButton" name="pushButton_2">
         <property name="styleSheet">
-         <string notr="true">background-color: rgb(255, 0, 0);</string>
+         <string notr="true">background-color: rgb(255, 0, 0);
+padding:20;
+font: 20pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(255, 255, 255);</string>
         </property>
         <property name="text">
          <string>PushButton</string>
