@@ -2,7 +2,6 @@ from PyQt5 import QtWidgets, uic
 from PyQt5.QtCore import Qt
 import sys
 from bluedot.btcomm import BluetoothServer
-from signal import pause
 
 strLocal = '/home/pi/KLGlass'
 strPc = '.'
@@ -19,20 +18,13 @@ class Ui(QtWidgets.QMainWindow):
         self.showMaximized()
         self.show()
 
-    def loadding(self, str):
-        self.SpeedText.setText(str)
+        def data_received(data):
+            print(data)
+            self.SpeedText.setText(data)
+            s.send(data)
+        s = BluetoothServer(data_received)
 
 
 app = QtWidgets.QApplication(sys.argv)
 window = Ui()
-
-
-def data_received(data):
-    print(data)
-    window.loadding(data)
-    s.send(data)
-
-
-s = BluetoothServer(data_received)
-pause()
 app.exec_()
