@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>VanToc</class>
- <widget class="QMainWindow" name="VanToc">
+ <class>Menu</class>
+ <widget class="QMainWindow" name="Menu">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -36,27 +36,12 @@
     <item>
      <layout class="QVBoxLayout" name="verticalLayout">
       <item>
-       <layout class="QHBoxLayout" name="horizontalLayout_3">
-        <item>
-         <widget class="QLabel" name="label_2">
-          <property name="styleSheet">
-           <string notr="true">color: rgb(50, 255, 126);
-font: 75 48pt &quot;MS Shell Dlg 2&quot;;</string>
-          </property>
-          <property name="text">
-           <string>HEART</string>
-          </property>
-          <property name="alignment">
-           <set>Qt::AlignCenter</set>
-          </property>
-         </widget>
-        </item>
-       </layout>
+       <layout class="QVBoxLayout" name="verticalLayout_2"/>
       </item>
       <item>
        <layout class="QHBoxLayout" name="horizontalLayout">
         <item>
-         <widget class="QLabel" name="label">
+         <widget class="QLabel" name="k1">
           <property name="text">
            <string/>
           </property>
@@ -68,33 +53,75 @@ font: 75 48pt &quot;MS Shell Dlg 2&quot;;</string>
           </property>
          </widget>
         </item>
-       </layout>
-      </item>
-      <item>
-       <layout class="QHBoxLayout" name="horizontalLayout_2">
         <item>
-         <widget class="QLabel" name="Speed">
-          <property name="styleSheet">
-           <string notr="true">color: rgb(50, 255, 126);
-font: 80pt &quot;alarm clock&quot;;
-</string>
-          </property>
+         <widget class="QLabel" name="k2">
           <property name="text">
-           <string>100</string>
+           <string/>
+          </property>
+          <property name="pixmap">
+           <pixmap>Icon/icons8_heart_outline_100px_9.png</pixmap>
           </property>
           <property name="alignment">
-           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           <set>Qt::AlignCenter</set>
           </property>
          </widget>
         </item>
         <item>
-         <widget class="QLabel" name="label_3">
+         <widget class="QLabel" name="k3">
+          <property name="text">
+           <string/>
+          </property>
+          <property name="pixmap">
+           <pixmap>Icon/icons8_footprint_100px_4.png</pixmap>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_3">
+        <item>
+         <widget class="QLabel" name="label_4">
           <property name="styleSheet">
-           <string notr="true">color: rgb(50, 255, 126);
-font: 75 45pt &quot;MS Shell Dlg 2&quot;;</string>
+           <string notr="true">font: 75 25pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(50, 255, 126);</string>
           </property>
           <property name="text">
-           <string>KM/H</string>
+           <string>SPEED</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignHCenter|Qt::AlignTop</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_5">
+          <property name="styleSheet">
+           <string notr="true">font: 75 25pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(255, 56, 56);</string>
+          </property>
+          <property name="text">
+           <string>HEART</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignHCenter|Qt::AlignTop</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_6">
+          <property name="styleSheet">
+           <string notr="true">color: rgb(24, 220, 255);
+font: 75 25pt &quot;MS Shell Dlg 2&quot;;</string>
+          </property>
+          <property name="text">
+           <string>STEPS</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignHCenter|Qt::AlignTop</set>
           </property>
          </widget>
         </item>

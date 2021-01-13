@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>480</width>
-    <height>491</height>
+    <width>490</width>
+    <height>499</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -38,7 +38,7 @@
       <item>
        <widget class="QLabel" name="label">
         <property name="styleSheet">
-         <string notr="true">font: 75 72pt &quot;Poplar Std&quot;;
+         <string notr="true">font: 75 55pt &quot;Poplar Std&quot;;
 color: rgb(255, 242, 0);
 </string>
         </property>
@@ -55,7 +55,7 @@ color: rgb(255, 242, 0);
         <item>
          <widget class="QLabel" name="Thu">
           <property name="styleSheet">
-           <string notr="true">font: 75 9pt &quot;MS Shell Dlg 2&quot;;
+           <string notr="true">font: 75 30pt &quot;MS Shell Dlg 2&quot;;
 color: rgb(255, 255, 34);</string>
           </property>
           <property name="text">
@@ -69,7 +69,7 @@ color: rgb(255, 255, 34);</string>
         <item>
          <widget class="QLabel" name="Ngay">
           <property name="styleSheet">
-           <string notr="true">font: 75 10pt &quot;MS Shell Dlg 2&quot;;
+           <string notr="true">font: 75 30pt &quot;MS Shell Dlg 2&quot;;
 color: rgb(255, 255, 34);</string>
           </property>
           <property name="text">
@@ -92,7 +92,7 @@ color: rgb(255, 255, 34);</string>
       <item>
        <widget class="QLabel" name="Time">
         <property name="styleSheet">
-         <string notr="true">font: 72pt &quot;alarm clock&quot;;
+         <string notr="true">font: 75pt &quot;alarm clock&quot;;
 color: rgb(255, 242, 0);
 border-width: 4px;
 border-style: solid;
@@ -117,21 +117,21 @@ border-color: rgb(255, 255, 34);</string>
            <pixmap>Icon/icons8_ookla_speedtest_100px_6.png</pixmap>
           </property>
           <property name="alignment">
-           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
           </property>
          </widget>
         </item>
         <item>
          <widget class="QLabel" name="Speed">
           <property name="styleSheet">
-           <string notr="true">font: 35pt &quot;alarm clock&quot;;
+           <string notr="true">font: 70pt &quot;alarm clock&quot;;
 color: rgb(50, 255, 126);</string>
           </property>
           <property name="text">
            <string>100</string>
           </property>
           <property name="alignment">
-           <set>Qt::AlignCenter</set>
+           <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
           </property>
          </widget>
         </item>
@@ -139,13 +139,20 @@ color: rgb(50, 255, 126);</string>
          <widget class="QLabel" name="label_10">
           <property name="styleSheet">
            <string notr="true">color: rgb(50, 255, 126);
-font: 75 12pt &quot;MS Shell Dlg 2&quot;;</string>
+font: 75 30pt &quot;MS Shell Dlg 2&quot;;</string>
           </property>
           <property name="text">
            <string>KM/H</string>
           </property>
           <property name="alignment">
            <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_6">
+          <property name="text">
+           <string>TextLabel</string>
           </property>
          </widget>
         </item>
@@ -172,25 +179,11 @@ font: 75 12pt &quot;MS Shell Dlg 2&quot;;</string>
         <item>
          <widget class="QLabel" name="Heart">
           <property name="styleSheet">
-           <string notr="true">font: 22pt &quot;alarm clock&quot;;
+           <string notr="true">font: 40pt &quot;alarm clock&quot;;
 color: rgb(255, 56, 56);</string>
           </property>
           <property name="text">
            <string>100</string>
-          </property>
-          <property name="alignment">
-           <set>Qt::AlignCenter</set>
-          </property>
-         </widget>
-        </item>
-        <item>
-         <widget class="QLabel" name="label_8">
-          <property name="styleSheet">
-           <string notr="true">font: 75 10pt &quot;MS Shell Dlg 2&quot;;
-color: rgb(255, 56, 56);</string>
-          </property>
-          <property name="text">
-           <string>BPM</string>
           </property>
           <property name="alignment">
            <set>Qt::AlignCenter</set>
@@ -216,25 +209,14 @@ color: rgb(255, 56, 56);</string>
         <item>
          <widget class="QLabel" name="Steps">
           <property name="styleSheet">
-           <string notr="true">font: 22pt &quot;alarm clock&quot;;
+           <string notr="true">font: 40pt &quot;alarm clock&quot;;
 color: rgb(23, 192, 235);</string>
           </property>
           <property name="text">
            <string>12000</string>
           </property>
-          <property name="alignment">
-           <set>Qt::AlignCenter</set>
-          </property>
-         </widget>
-        </item>
-        <item>
-         <widget class="QLabel" name="label_9">
-          <property name="styleSheet">
-           <string notr="true">font: 75 10pt &quot;MS Shell Dlg 2&quot;;
-color: rgb(23, 192, 235);</string>
-          </property>
-          <property name="text">
-           <string>STEPS</string>
+          <property name="scaledContents">
+           <bool>false</bool>
           </property>
           <property name="alignment">
            <set>Qt::AlignCenter</set>

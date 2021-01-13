@@ -1,26 +1,38 @@
 from PyQt5 import QtWidgets, uic
 from PyQt5.QtCore import Qt
 import sys
-import time
+from bluedot.btcomm import BluetoothServer
+from signal import pause
+
+strLocal = '/home/pi/KLGlass'
+strPc = '.'
 
 
 class Ui(QtWidgets.QMainWindow):
     def __init__(self):
         super(Ui, self).__init__()
-        uic.loadUi('/home/pi/KLGlass/UI/MatChinh.ui', self)
-        # self.Gio1 = self.findChild(QtWidgets.QLabel, 'Gio1')  # Find the button
+        uic.loadUi(strLocal+'/UI/MatChinh.ui', self)
+        self.SpeedText = self.findChild(
+            QtWidgets.QLabel, 'Speed')  # Find the button
         # Remember to pass the definition/method, not the return value!
-        self.setWindowFlag(Qt.FramelessWindowHint)
+        # self.setWindowFlag(Qt.FramelessWindowHint)
         self.showMaximized()
         self.show()
 
-    def loadding(self):
-        print('printButtonPressed')
-        # self.Gio1.setText('khan')
-        # self.Gio1.setText(str(i))
+    def loadding(self, str):
+        self.SpeedText.setText(str)
 
 
 app = QtWidgets.QApplication(sys.argv)
 window = Ui()
-window.loadding()
+
+
+def data_received(data):
+    print(data)
+    window.loadding(data)
+    s.send(data)
+
+
+s = BluetoothServer(data_received)
+pause()
 app.exec_()

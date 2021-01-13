@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>BuocChan</class>
- <widget class="QMainWindow" name="BuocChan">
+ <class>VanToc</class>
+ <widget class="QMainWindow" name="VanToc">
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
     <width>480</width>
-    <height>478</height>
+    <height>491</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -36,61 +36,29 @@
     <item>
      <layout class="QVBoxLayout" name="verticalLayout">
       <item>
-       <layout class="QHBoxLayout" name="horizontalLayout">
+       <layout class="QHBoxLayout" name="horizontalLayout_3">
         <item>
-         <widget class="QLabel" name="label_3">
+         <widget class="QLabel" name="label_4">
           <property name="styleSheet">
-           <string notr="true">color: rgb(24, 220, 255);
+           <string notr="true">font: 75 30pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(255, 255, 255);</string>
+          </property>
+          <property name="text">
+           <string>S-WATCH</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_2">
+          <property name="styleSheet">
+           <string notr="true">color: rgb(50, 255, 126);
 font: 75 48pt &quot;MS Shell Dlg 2&quot;;</string>
           </property>
           <property name="text">
-           <string>STEPS</string>
-          </property>
-          <property name="alignment">
-           <set>Qt::AlignBottom|Qt::AlignHCenter</set>
-          </property>
-         </widget>
-        </item>
-       </layout>
-      </item>
-      <item>
-       <layout class="QHBoxLayout" name="horizontalLayout_5">
-        <item>
-         <widget class="QLabel" name="label_2">
-          <property name="text">
            <string/>
           </property>
           <property name="pixmap">
-           <pixmap>Icon/icons8_exercise_100px_1.png</pixmap>
-          </property>
-          <property name="alignment">
-           <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-          </property>
-         </widget>
-        </item>
-       </layout>
-      </item>
-      <item>
-       <layout class="QHBoxLayout" name="horizontalLayout_4">
-        <item>
-         <widget class="QLabel" name="Steps">
-          <property name="styleSheet">
-           <string notr="true">color: rgb(24, 220, 255);
-font: 80pt &quot;alarm clock&quot;;
-</string>
-          </property>
-          <property name="text">
-           <string>12000</string>
-          </property>
-         </widget>
-        </item>
-        <item>
-         <widget class="QLabel" name="label_4">
-          <property name="text">
-           <string/>
-          </property>
-          <property name="pixmap">
-           <pixmap>Icon/icons8_step_60px.png</pixmap>
+           <pixmap>Icon/icons8_restore_100px.png</pixmap>
           </property>
           <property name="alignment">
            <set>Qt::AlignCenter</set>
@@ -100,7 +68,57 @@ font: 80pt &quot;alarm clock&quot;;
        </layout>
       </item>
       <item>
-       <layout class="QHBoxLayout" name="horizontalLayout_3"/>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="QLabel" name="Swatch">
+          <property name="styleSheet">
+           <string notr="true">font: 48pt &quot;alarm clock&quot;;
+color: rgb(255, 255, 255);</string>
+          </property>
+          <property name="text">
+           <string>00:00:00</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <item>
+         <widget class="QLabel" name="label">
+          <property name="styleSheet">
+           <string notr="true">color: rgb(50, 255, 126);
+font: 80pt &quot;alarm clock&quot;;
+</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="pixmap">
+           <pixmap>Icon/icons8_play_100px_2.png</pixmap>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_3">
+          <property name="text">
+           <string/>
+          </property>
+          <property name="pixmap">
+           <pixmap>Icon/icons8_pause_100px_1.png</pixmap>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+       </layout>
       </item>
      </layout>
     </item>

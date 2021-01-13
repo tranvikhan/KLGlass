@@ -87,7 +87,7 @@ color: rgb(255, 56, 56);</string>
           <item row="5" column="1">
            <widget class="QLabel" name="label_5">
             <property name="styleSheet">
-             <string notr="true">font: 25pt &quot;alarm clock&quot;;
+             <string notr="true">font: 45pt &quot;alarm clock&quot;;
 color: rgb(255, 56, 56);</string>
             </property>
             <property name="text">
@@ -101,11 +101,9 @@ color: rgb(255, 56, 56);</string>
           <item row="5" column="0">
            <widget class="QLabel" name="Heart">
             <property name="styleSheet">
-             <string notr="true">font: 48pt &quot;alarm clock&quot;;
+             <string notr="true">font: 80pt &quot;alarm clock&quot;;
 color: rgb(255, 56, 56);
-border-width: 3px;
-border-style: solid;
-border-color: rgb(255, 56, 56);</string>
+</string>
             </property>
             <property name="text">
              <string>100</string>
