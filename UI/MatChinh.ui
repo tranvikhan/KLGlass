@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>490</width>
-    <height>499</height>
+    <height>528</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -53,20 +53,6 @@ color: rgb(255, 242, 0);
       <item>
        <layout class="QHBoxLayout" name="horizontalLayout_3">
         <item>
-         <widget class="QLabel" name="Thu">
-          <property name="styleSheet">
-           <string notr="true">font: 75 30pt &quot;MS Shell Dlg 2&quot;;
-color: rgb(255, 255, 34);</string>
-          </property>
-          <property name="text">
-           <string>Mon.</string>
-          </property>
-          <property name="alignment">
-           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-          </property>
-         </widget>
-        </item>
-        <item>
          <widget class="QLabel" name="Ngay">
           <property name="styleSheet">
            <string notr="true">font: 75 30pt &quot;MS Shell Dlg 2&quot;;
@@ -76,14 +62,7 @@ color: rgb(255, 255, 34);</string>
            <string>12/01/2021</string>
           </property>
           <property name="alignment">
-           <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-          </property>
-         </widget>
-        </item>
-        <item>
-         <widget class="QLabel" name="label_3">
-          <property name="text">
-           <string>TextLabel</string>
+           <set>Qt::AlignCenter</set>
           </property>
          </widget>
         </item>
@@ -129,20 +108,6 @@ color: rgb(50, 255, 126);</string>
           </property>
           <property name="text">
            <string>100</string>
-          </property>
-          <property name="alignment">
-           <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-          </property>
-         </widget>
-        </item>
-        <item>
-         <widget class="QLabel" name="label_10">
-          <property name="styleSheet">
-           <string notr="true">color: rgb(50, 255, 126);
-font: 75 30pt &quot;MS Shell Dlg 2&quot;;</string>
-          </property>
-          <property name="text">
-           <string>KM/H</string>
           </property>
           <property name="alignment">
            <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>

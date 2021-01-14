@@ -1,0 +1,1 @@
+googlesamples-assistant-pushtotalk --project-id klglassapi --device-model-id klglassapi-pi3-google-assistant-tt8vxq --display
